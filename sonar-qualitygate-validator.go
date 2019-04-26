@@ -94,7 +94,7 @@ func (p *Params) getAuthHeaderVal() string {
 // End Params Object
 
 func showUsageHelp() string {
-	return fmt.Sprintf("How to use: -%s <%s> -%s <%s> -%s <%s> -%s <%s> ", 
+	return fmt.Sprintf("How to use: sonar-qualitygate-validator -%s <%s> -%s <%s> -%s <%s> -%s <%s> ", 
 		APP_PARAM_SONAR_URL, APP_PARAM_SONAR_URL,
 		APP_PARAM_TOKEN, APP_PARAM_TOKEN, 
 		APP_PARAM_PROJECT_KEY, APP_PARAM_PROJECT_KEY, 
